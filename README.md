@@ -1,0 +1,2 @@
+# LostshardGuide
+Lostshard community guide
