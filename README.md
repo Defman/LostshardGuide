@@ -1,6 +1,6 @@
 # Lostshard Guide
 
-Lostshard guide uses mdBook to generate the guide as static html. Follow the instruction below to get started.
+Lostshard guide uses [mdBook](https://github.com/rust-lang-nursery/mdBook) to generate the guide as static html. Follow the instruction below to get started.
 
 ## Installation
 
@@ -8,7 +8,7 @@ There are multiple ways to install mdBook.
 
 1. **Binaries**
 
-   Binaries are available for download [here][https://github.com/rust-lang-nursery/mdBook/releases]. Make sure to put the
+   Binaries are available for download [here](https://github.com/rust-lang-nursery/mdBook/releases). Make sure to put the
    path to the binary into your `PATH`.
 
 2. **From Crates.io**
