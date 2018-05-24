@@ -1,0 +1,8 @@
+[book]
+authors = ["Jacob"]
+multilingual = false
+src = "src"
+title = "Lostshard guide"
+[output.html]
+theme = "src/theme"
+no-section-label = true
