@@ -11,7 +11,7 @@ There are multiple ways to install mdBook.
    Binaries are available for download [here](https://github.com/rust-lang-nursery/mdBook/releases). Make sure to put the
    path to the binary into your `PATH`.
 
-2. **From Crates.io**
+2. **From [Crates.io](https://crates.io)**
 
    This requires at least [Rust] 1.20 and Cargo to be installed. Once you have installed
    Rust, type the following in the terminal:
