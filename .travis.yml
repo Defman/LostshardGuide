@@ -13,8 +13,8 @@ jobs:
       branches:
         only:
           - master
-    stage: deploy
-    - language: node_js
+    - stage: deploy
+      language: node_js
       node_js: node
 
       cache:
