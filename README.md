@@ -8,8 +8,7 @@ There are multiple ways to install mdBook.
 
 1. **Binaries**
 
-   Binaries are available for download [here](https://github.com/rust-lang-nursery/mdBook/releases). Make sure to put the
-   path to the binary into your `PATH`.
+   Binaries are available for download [here](https://github.com/rust-lang-nursery/mdBook/releases). Make sure to put the path to the binary into your `PATH`.
 
 2. **From [Crates.io](https://crates.io)**
 
