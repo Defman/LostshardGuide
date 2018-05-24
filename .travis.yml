@@ -5,7 +5,7 @@ jobs:
       cache: cargo
 
       install:
-        - cargo install mdbook --vers "^0.1.0"
+        - cargo install mdbook
 
       script:
         - mdbook build
