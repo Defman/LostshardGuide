@@ -1,8 +1,8 @@
-matrix:
+jobs:
   include:
-    - language: rust
-      cache: 
-        - cargo
+    - stage: build
+      language: rust
+      cache: cargo
 
       install:
         - cargo install mdbook --vers "^0.1.0"
@@ -13,6 +13,7 @@ matrix:
       branches:
         only:
           - master
+    stage: deploy
     - language: node_js
       node_js: node
 
@@ -23,9 +24,5 @@ matrix:
       before_deploy:
         - npm install netlify-cli -g
       
-      deploy:
-        provider: script
-        script: netlify deploy -s $NETLIFY_SITE_ID -t $NETLIFY_ACCESS_TOKEN -p ./book
-        skip_cleanup: true
-        on:
-          branch: master
+      script: 
+        - netlify deploy -s $NETLIFY_SITE_ID -t $NETLIFY_ACCESS_TOKEN -p ./book
