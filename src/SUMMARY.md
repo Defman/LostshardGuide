@@ -1,8 +1,18 @@
-# Lostshard
+# Lost Shard
 
 - [Introduction](introduction/index.md)
 - [Economy](economy/index.md)
-- [Plots](plots/index.md)
+- [Landownership / Plots](plots/index.md)
+- [Chat](chat/index.md)
 - [Skills](skills/index.md)
+  - [Magery](skills/magery/index.md)
   - [Mining](skills/mining/index.md)
+  - [Fishing](skills/fishing/index.md)
+  - [Survivalism](skills/survivalism/index.md)
+  - [Lumberjacking](skills/lumberjacking/index.md)
+  - [Blades](skills/blades/index.md)
+  - [Archery](skills/archery/index.md)
+  - [Brawling](skills/brawling/index.md)
+  - [Taming](skills/taming/index.md)
 - [Spells](spell/index.md)
+- [Commands](commands/index.md)

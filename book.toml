@@ -2,7 +2,8 @@
 authors = ["Jacob"]
 multilingual = false
 src = "src"
-title = "Lostshard guide"
+title = "Lost Shard guide"
+
 [output.html]
 theme = "src/theme"
 no-section-label = true
