@@ -8,7 +8,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh 'mdbook clean && mdbook build'
+        sh 'mdbook clean && mdbook build'
       }
     }
   }
